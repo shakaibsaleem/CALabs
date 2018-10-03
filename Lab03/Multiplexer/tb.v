@@ -30,5 +30,5 @@ module tb
 		#20 b = ~b;
 	end
 	initial
-	$monitor("a = ", $a,", b = ",$b,", sel = ",$sel,", out = ", $data_out);
+	$monitor("a = ", $a,", b = ",$b,", sel = ",$sel,", out = ",$data_out);
 endmodule
