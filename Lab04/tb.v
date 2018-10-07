@@ -1,8 +1,4 @@
-
-module tb
-(
-
-);
+module tb ( );
 
 reg [63:0] WriteData;
 reg [4:0] RS1;
@@ -14,7 +10,7 @@ reg 		reset;
 wire [63:0] ReadData1;
 wire [63:0] ReadData2;
 	
-	Registers r
+Registers r
 (
 	.WriteData(WriteData),
 	.RS1(RS1),
@@ -46,5 +42,5 @@ wire [63:0] ReadData2;
 	
 	initial
 	$monitor("Time = ",$time, "---> read1 = %d	read2 = %d	RegWrite = %d",ReadData1,ReadData2,RegWrite);
-	
+
 endmodule

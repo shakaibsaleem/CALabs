@@ -1,4 +1,4 @@
-module Multiplexer
+module multiplexer
 
 (
 input [63:0] a, [63:0] b,

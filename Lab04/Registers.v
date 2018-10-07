@@ -1,18 +1,18 @@
 module Registers
 
 (
-input [63:0] WriteData,
-input [4:0] RS1,
-input [4:0] RS2,
-input [4:0] RD,
-input 		RegWrite,
-input 		clk,
-input 		reset,
-output reg [63:0] ReadData1,
-output reg [63:0] ReadData2
+	input [63:0] WriteData,
+	input [4:0] RS1,
+	input [4:0] RS2,
+	input [4:0] RD,
+	input 		RegWrite,
+	input 		clk,
+	input 		reset,
+	output reg [63:0] ReadData1,
+	output reg [63:0] ReadData2
 );
 
-	reg [63:0] Register [31:0];
+reg [63:0] Register [31:0];
 
 always @ (posedge reset or negedge clk)
 	begin
