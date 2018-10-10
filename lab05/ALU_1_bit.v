@@ -23,7 +23,7 @@ module ALU_1_bit
 	assign andout = mux1out&mux2out;
 	assign orout  = mux1out|mux2out;
 	assign sum = mux1out+mux2out+CarryIn;
-	assign CarryOut = mux1out&CarryIn+mux2out&CarryIn+mux1out&mux2out;
+	assign CarryOut = (mux1out&CarryIn)|(mux2out&CarryIn)|(mux1out&mux2out);
 	
 	mux2 op
 	(
