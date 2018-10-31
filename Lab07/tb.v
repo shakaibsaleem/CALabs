@@ -11,10 +11,12 @@ initial
 	begin
 		clk = 1'b0;
 		reset = 1'b0;
+		#10 reset = 1'b1;
+		#10 reset = 1'b0;
 		//ins <= 31'b0;
 	end
 
-always@*
+always
 	begin
 		# 10 clk = ~clk;
 	end
