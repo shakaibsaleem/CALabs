@@ -61,7 +61,7 @@ module Data_Memory
 		Memory[47] =8'hFA;
 		Memory[48] =8'h0B;
 		Memory[49] =8'h1C;
-		Memory[50] =8'h2D;
+		Memory[50] =8'd15;
 		Memory[51] =8'h3E;
 		Memory[52] =8'h4F;
 		Memory[53] =8'h50;

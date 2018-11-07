@@ -31,7 +31,7 @@ always @ (posedge reset or negedge clk)
 			Register [7] <= 64'd0;
 			Register [8] <= 64'd0;
 			Register [9] <= 64'd0;
-			Register [10] <= 64'd0;
+			Register [10] <= 64'd10;
 			Register [11] <= 64'd0;
 			Register [12] <= 64'd0;
 			Register [13] <= 64'd0;
@@ -42,7 +42,7 @@ always @ (posedge reset or negedge clk)
 			Register [18] <= 64'd0;
 			Register [19] <= 64'd0;
 			Register [20] <= 64'd0;
-			Register [21] <= 64'd0;
+			Register [21] <= 64'd9;
 			Register [22] <= 64'd0;
 			Register [23] <= 64'd0;
 			Register [24] <= 64'd0;
