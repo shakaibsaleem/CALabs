@@ -1,4 +1,4 @@
-module Registers
+module RegisterFile
 
 (
 	input [63:0] WriteData,

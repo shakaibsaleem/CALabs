@@ -1,12 +1,12 @@
 module tb();
 
 reg [31:0] instruction;
-wire [63:0] immediate;
+wire [63:0] imm_data;
 
 IDE i
 (
 	.instruction(instruction),
-	.immediate(immediate)
+	.imm_data(imm_data)
 );
 
 	initial 
@@ -19,7 +19,7 @@ IDE i
 
 	initial
 	begin
-	$monitor ("Output = %b", immediate);
+	$monitor ("Output = %b", imm_data);
 	end
 
 endmodule

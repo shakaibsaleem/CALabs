@@ -6,7 +6,7 @@ reg [63:0] a,b;
 reg sel;
 wire [63:0] data_out;
 
-multiplexer multi
+Mux multi
 (
 	.sel(sel),
 	.a(a),

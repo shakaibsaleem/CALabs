@@ -10,7 +10,7 @@ reg 		reset;
 wire [63:0] ReadData1;
 wire [63:0] ReadData2;
 	
-Registers r
+RegisterFile r
 (
 	.WriteData(WriteData),
 	.RS1(RS1),

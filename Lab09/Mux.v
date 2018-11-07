@@ -1,4 +1,4 @@
-module multiplexer
+module Mux
 
 (
 input [63:0] a, [63:0] b,

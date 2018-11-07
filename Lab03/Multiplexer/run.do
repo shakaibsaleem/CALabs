@@ -1,4 +1,4 @@
-vlog tb.v multiplexer.v 
+vlog tb.v Mux.v 
 
 vsim -novopt work.tb
 
