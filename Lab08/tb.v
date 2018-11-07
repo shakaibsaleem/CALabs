@@ -38,16 +38,15 @@ initial
 		#10 Opcode = 7'b0110011;
 
 		//Funct = 0000, Operation should be = 0010
-		Funct = 0000;
+		Funct = 4'b0000;
 
 		//Funct = 1000, Operation should be = 0110
-		#10 Funct = 1000;
+		#10 Funct = 4'b1000;
+		
 
 		//Funct = 0111, Operation should be = 0000
-		#10 Funct = 0000;
+		#10 Funct = 4'b0111;
 
-		//Funct = 0110, Operation should be = 0001
-		#10 Funct = 0110;
 	end
 
 initial
