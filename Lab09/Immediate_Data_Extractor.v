@@ -1,4 +1,4 @@
-module ImmGen
+module Immediate_Data_Extractor
 
 (
 input [31:0] instruction,

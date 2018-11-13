@@ -1,4 +1,4 @@
-vlog tb.v ImmGen.v 
+vlog tb.v Immediate_Data_Extractor.v 
 
 vsim -novopt work.tb
 
