@@ -61,5 +61,3 @@ module RISC_V_Processor
 		.ReadData2(rd2),
 		.RegWrite(rw)
 	);
-	
-	
